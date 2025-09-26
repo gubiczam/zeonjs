@@ -1,0 +1,17 @@
+{
+  "name": "hyperlib",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:hello": "pnpm --filter hello-island dev",
+    "dev:router": "pnpm --filter router-demo dev",
+    "dev:ssr": "pnpm --filter router-ssr dev",
+    "build": "pnpm -r build || true",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "pnpm -r test"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "typescript": "^5.9.2"
+  }
+}

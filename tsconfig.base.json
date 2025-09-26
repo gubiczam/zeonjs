@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@zeonjs/core": ["packages/core/src/index.ts"],
+      "@zeonjs/runtime": ["packages/runtime/src/index.ts"],
+      "@zeonjs/router": ["packages/router/src/index.ts"],
+      "@zeonjs/ssr": ["packages/ssr/src/index.ts"],
+      "@zeonjs/vite-plugin": ["packages/vite-plugin/src/index.ts"]
+    }
+  },
+  "include": []
+}

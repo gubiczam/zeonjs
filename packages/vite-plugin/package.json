@@ -1,0 +1,20 @@
+{
+  "name": "@zeonjs/vite-plugin",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format esm --sourcemap --clean"
+  }
+}
