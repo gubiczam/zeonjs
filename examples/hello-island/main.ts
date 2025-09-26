@@ -1,5 +1,5 @@
-import { signal } from "@xyz/core";
-import { h, mount } from "@xyz/runtime";
+import { signal } from "@usezeon/core";
+import { h, mount } from "@usezeon/runtime";
 
 const n = signal(0);
 const view = h("div", { class: "card" },

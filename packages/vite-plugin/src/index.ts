@@ -5,7 +5,7 @@ function rootDir(metaUrl: string) {
   return path.resolve(path.dirname(fileURLToPath(metaUrl)), "../../..");
 }
 
-export function xyzPlugin() {
+export function zeonPlugin() {
   const root = rootDir(import.meta.url);
   const alias = {
     "@usezeon/core": path.join(root, "packages/core/src/index.ts"),
@@ -14,11 +14,11 @@ export function xyzPlugin() {
     "@usezeon/ssr": path.join(root, "packages/ssr/src/index.ts")
   };
   return {
-    name: "xyz-plugin",
+    name: "zeon-plugin",
     config() {
       return { resolve: { alias } };
     }
   };
 }
 
-export default xyzPlugin;
+export default zeonPlugin;
