@@ -11,7 +11,7 @@
     }
   },
   "dependencies": {
-    "@usezeon/runtime": "^0.0.1"
+    "@usezeon/runtime": "workspace:*"
   },
   "publishConfig": {
     "access": "public"
