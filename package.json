@@ -13,5 +13,13 @@
   "devDependencies": {
     "@types/node": "^24.5.2",
     "typescript": "^5.9.2"
-  }
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/gubiczam/zeonjs"
+},
+"homepage": "https://github.com/gubiczam/zeonjs#readme",
+"bugs": {
+  "url": "https://github.com/gubiczam/zeonjs/issues"
+}
 }
