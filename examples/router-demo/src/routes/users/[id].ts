@@ -1,5 +1,5 @@
-import { h } from "@zeonjs/runtime";
-import type { Loader } from "@zeonjs/router";
+import { h } from "@usezeon/runtime";
+import type { Loader } from "@usezeon/router";
 
 export const loader: Loader = async ({ params }) => {
   return { user: { id: params.id, role: "admin" } };

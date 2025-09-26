@@ -1,5 +1,5 @@
-import { createRouter, type PageModule } from "@zeonjs/router";
-import { renderRoute } from "@zeonjs/ssr";
+import { createRouter, type PageModule } from "@usezeon/router";
+import { renderRoute } from "@usezeon/ssr";
 
 // Válassz EGYET:
 

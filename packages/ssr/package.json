@@ -1,9 +1,19 @@
 {
-  "name": "@zeonjs/ssr",
+  "name": "@usezeon/ssr",
   "version": "0.0.1",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
-  "exports": { ".": { "types": "./src/index.ts", "default": "./src/index.ts" } },
-  "dependencies": { "@zeonjs/runtime": "workspace:*" }
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "dependencies": {
+    "@usezeon/runtime": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }

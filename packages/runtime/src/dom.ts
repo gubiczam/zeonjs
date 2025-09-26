@@ -1,4 +1,4 @@
-import { effect } from "@zeonjs/core";
+import { effect } from "@usezeon/core";
 
 export function text(read: () => any): Text {
   const t = document.createTextNode("");

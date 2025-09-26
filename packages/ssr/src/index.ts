@@ -1,4 +1,4 @@
-import { h } from "@zeonjs/runtime";
+import { h } from "@usezeon/runtime";
 
 export function renderToString(node: Node): string {
   if (node.nodeType === 3) return (node as Text).data;

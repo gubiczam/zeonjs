@@ -1,6 +1,6 @@
-import { signal } from "@zeonjs/core";
-import { h, mount } from "@zeonjs/runtime";
-import { renderToString } from "@zeonjs/ssr";
+import { signal } from "@usezeon/core";
+import { h, mount } from "@usezeon/runtime";
+import { renderToString } from "@usezeon/ssr";
 
 // szerveroldali szimuláció
 function App() {

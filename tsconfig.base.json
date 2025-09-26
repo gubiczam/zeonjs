@@ -13,11 +13,11 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "@zeonjs/core": ["packages/core/src/index.ts"],
-      "@zeonjs/runtime": ["packages/runtime/src/index.ts"],
-      "@zeonjs/router": ["packages/router/src/index.ts"],
-      "@zeonjs/ssr": ["packages/ssr/src/index.ts"],
-      "@zeonjs/vite-plugin": ["packages/vite-plugin/src/index.ts"]
+      "@usezeon/core": ["packages/core/src/index.ts"],
+      "@usezeon/runtime": ["packages/runtime/src/index.ts"],
+      "@usezeon/router": ["packages/router/src/index.ts"],
+      "@usezeon/ssr": ["packages/ssr/src/index.ts"],
+      "@usezeon/vite-plugin": ["packages/vite-plugin/src/index.ts"]
     }
   },
   "include": []

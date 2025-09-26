@@ -1,4 +1,4 @@
-import { createRouter, type PageModule } from "@zeonjs/router";
+import { createRouter, type PageModule } from "@usezeon/router";
 
 const pages = import.meta.glob<PageModule>("./routes/**/*.ts");
 

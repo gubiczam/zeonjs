@@ -1,5 +1,5 @@
 {
-  "name": "@zeonjs/vite-plugin",
+  "name": "@usezeon/vite-plugin",
   "version": "0.0.1",
   "type": "module",
   "main": "dist/index.js",
@@ -16,5 +16,8 @@
   },
   "scripts": {
     "build": "tsup src/index.ts --dts --format esm --sourcemap --clean"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

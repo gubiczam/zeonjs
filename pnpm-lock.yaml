@@ -17,13 +17,13 @@ importers:
 
   examples/blog-ssr:
     dependencies:
-      '@zeonjs/core':
+      '@usezeon/core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@zeonjs/runtime':
+      '@usezeon/runtime':
         specifier: workspace:*
         version: link:../../packages/runtime
-      '@zeonjs/ssr':
+      '@usezeon/ssr':
         specifier: workspace:*
         version: link:../../packages/ssr
     devDependencies:
@@ -39,10 +39,10 @@ importers:
 
   examples/hello-island:
     dependencies:
-      '@zeonjs/core':
+      '@usezeon/core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@zeonjs/runtime':
+      '@usezeon/runtime':
         specifier: workspace:*
         version: link:../../packages/runtime
     devDependencies:
@@ -58,10 +58,10 @@ importers:
 
   examples/router-demo:
     dependencies:
-      '@zeonjs/router':
+      '@usezeon/router':
         specifier: workspace:*
         version: link:../../packages/router
-      '@zeonjs/runtime':
+      '@usezeon/runtime':
         specifier: workspace:*
         version: link:../../packages/runtime
     devDependencies:
@@ -77,13 +77,13 @@ importers:
 
   examples/router-ssr:
     dependencies:
-      '@zeonjs/router':
+      '@usezeon/router':
         specifier: workspace:*
         version: link:../../packages/router
-      '@zeonjs/runtime':
+      '@usezeon/runtime':
         specifier: workspace:*
         version: link:../../packages/runtime
-      '@zeonjs/ssr':
+      '@usezeon/ssr':
         specifier: workspace:*
         version: link:../../packages/ssr
     devDependencies:
@@ -111,19 +111,19 @@ importers:
 
   packages/router:
     dependencies:
-      '@zeonjs/runtime':
+      '@usezeon/runtime':
         specifier: workspace:*
         version: link:../runtime
 
   packages/runtime:
     dependencies:
-      '@zeonjs/core':
+      '@usezeon/core':
         specifier: workspace:*
         version: link:../core
 
   packages/ssr:
     dependencies:
-      '@zeonjs/runtime':
+      '@usezeon/runtime':
         specifier: workspace:*
         version: link:../runtime
 

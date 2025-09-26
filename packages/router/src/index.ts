@@ -1,4 +1,4 @@
-import { mount } from "@zeonjs/runtime";
+import { mount } from "@usezeon/runtime";
 
 export type Loader = (ctx: { params: Record<string,string>; url: URL }) => Promise<any> | any;
 export type PageModule = { default: (props: any) => Node; loader?: Loader };

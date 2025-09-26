@@ -1,5 +1,5 @@
 import { renderToString } from "./render";
-import type { PageModule } from "@zeonjs/router";
+import type { PageModule } from "@usezeon/router";
 
 
 type Match = {

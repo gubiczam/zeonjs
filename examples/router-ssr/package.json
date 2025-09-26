@@ -6,9 +6,9 @@
     "dev": "vite"
   },
   "dependencies": {
-    "@zeonjs/router": "workspace:*",
-    "@zeonjs/runtime": "workspace:*",
-    "@zeonjs/ssr": "workspace:*"
+    "@usezeon/router": "workspace:*",
+    "@usezeon/runtime": "workspace:*",
+    "@usezeon/ssr": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^22.18.6",
