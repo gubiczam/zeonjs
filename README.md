@@ -18,10 +18,10 @@
 
 **Resumable, HTML-first frontend framework. Zero hydration. Islands only.**
 
-- 🚀 **Zero hydration**: SSR első festés, majd csak az „island”-ok kapnak JS-t  
-- ⚡ **Signals**: finom-granulált reaktivitás, VDOM nélkül  
-- 📁 **File-based router**: params, async loader, 404  
-- 🛠️ **Vite-first** DX és plugin
+🚀 Zero hydration: SSR first paint, then only the islands receive JS
+⚡ Signals: fine-grained reactivity without a VDOM
+📁 File-based router: params, async loaders, 404 handling
+🛠️ Vite-first DX and plugin system
 
 ---
 
