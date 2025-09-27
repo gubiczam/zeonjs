@@ -1,4 +1,7 @@
 {
   "extends": "./tsconfig.base.json",
-  "include": ["packages/**/*.ts", "examples/**/*.ts"]
+  "include": ["packages/**/*.ts", "examples/**/*.ts"],
+  "compilerOptions": {
+    "types": ["node"]
+  }
 }
