@@ -10,16 +10,27 @@
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "test": "pnpm -r test"
   },
+
   "devDependencies": {
-    "@types/node": "^24.5.2",
-    "typescript": "^5.9.2"
+    "vite": "5.4.20",
+    "@types/node": "20.19.17",
+    "typescript": "^5.9.2",
+    "vitest": "^2.0.0"
   },
+  "pnpm": {
+    "overrides": {
+      "vite": "5.4.20",
+      "@types/node": "20.19.17",
+      "vitest": "^2.0.0"
+    }
+  },
+
   "repository": {
-  "type": "git",
-  "url": "https://github.com/gubiczam/zeonjs"
-},
-"homepage": "https://github.com/gubiczam/zeonjs#readme",
-"bugs": {
-  "url": "https://github.com/gubiczam/zeonjs/issues"
-}
+    "type": "git",
+    "url": "https://github.com/gubiczam/zeonjs"
+  },
+  "homepage": "https://github.com/gubiczam/zeonjs#readme",
+  "bugs": {
+    "url": "https://github.com/gubiczam/zeonjs/issues"
+  }
 }

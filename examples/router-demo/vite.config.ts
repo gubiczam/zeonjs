@@ -1,6 +1,6 @@
 import { defineConfig, type PluginOption } from "vite";
-import zeon from "@usezeon/vite-plugin";
+import zeonPlugin from "@usezeon/vite-plugin";
+
 export default defineConfig({
-plugins: [zeon() as PluginOption],
-  server: { port: Number(process.env.PORT) || 5174 }
+  plugins: [zeonPlugin() as PluginOption] 
 });
