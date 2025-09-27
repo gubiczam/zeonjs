@@ -9,9 +9,10 @@
     "@usezeon/runtime": "workspace:*",
     "@usezeon/ssr": "workspace:*"
   },
-  "devDependencies": {
-    "@types/node": "^24.5.2",
-    "typescript": "^5.9.2",
-    "vite": "^5.4.20"
-  }
+"devDependencies": {
+  "vite": "5.4.20",
+  "@types/node": "20.19.17",
+  "typescript": "^5.9.2"
+}
+
 }
